@@ -5,13 +5,18 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
    <title>Formulário Básico</title>
-
-
 </head>
 <body>
-    <button class="btn">Home</button>
-    <button class="#">Formulario</button>
-    <center><h1>Preencha o Formulario!</h1></center>    <br>
+   <script>
+      function enviar() {
+         var valor = document.getElementById("meuInput").value;
+         console.log("Valor enviado:", valor);
+     }
+   </script>
+    <header>
+    <center><h1>Preencha o Formulario!</h1></center> <br>
+   </header>
+
     <center>
        <label for="nome">Nome:</label>
        <input type="text" id="nome" name="nome" placeholder="Digite seu Nome aqui">
@@ -24,7 +29,11 @@
        <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
     
        <input type="submit" value="Enviar">
+
     </center>
+    <center><h1>Seja contra a homofobia! </h1>
+    <h1>assine este formulario para apoiar a instuituição LGBTQIA+</h1></center>
    </form>
+   
 </body>
 </html>

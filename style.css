@@ -1,3 +1,8 @@
+
+body{
+    background-color:rgb(245, 239, 230);
+}
+
 form {
     width: 300px;
     margin: 0 auto;
@@ -44,4 +49,6 @@ input[type="data"] {
     border-radius: 4px;
     box-sizing: center;
 }
-/*    CSS para estilização do formulário  */
+h1{
+    font-style: oblique;
+}
