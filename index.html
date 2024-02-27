@@ -5,8 +5,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
    <title>Formulário</title>
+
 </head>
-<body>
+<body background="Img/background preto.pngtr"> 
    <header id="header">
       <div class="container">
           
@@ -23,32 +24,32 @@
    <script>
       function enviar() {
          var valor = document.getElementById("Enviar").value;
-         alert("Valor enviado:", valor);
+         alert("Valor enviado: " + valor);
      }
    </script>
     <header>
-    <center><h1>Ajude a minoria indígena a ser ouvida e valorizada. 
-      Preencha o formulário e se envolva hoje mesmo!</h1></center> 
+    <center><h2>Ajude a minoria indígena a ser ouvida e valorizada. 
+      Preencha o formulário e se envolva hoje mesmo!</p></center> 
       <br>
 
    </header>
+<center>
+    <form onsubmit="event.preventDefault(); enviar();">
+       <div class="form-container">
+           <label for="nome">Nome:</label>
+           <input type="text" id="nome" name="nome" placeholder="Digite seu Nome aqui">
 
-    <center>
-       <label for="nome">Nome:</label>
-       <input type="text" id="nome" name="nome" placeholder="Digite seu Nome aqui">
-
-       <label for="data">Data:</label>
-       <input type="date" id="data" name="Data" placeholder="Digite sua Data de Nascimento">
+           <label for="data">Data:</label>
+           <input type="date" id="data" name="Data" placeholder="Digite sua Data de Nascimento">
 
 
-       <label for="email">E-mail:</label>
-       <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
-    
-       <input type="submit" value="Enviar">
-
-    </center>
-   
-   </form>
+           <label for="email">E-mail:</label>
+           <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+        
+           <input type="submit" value="Enviar">
+       </div>
+      </center>
+    </form>
    <center><footer>&copy;Pedro Campos Gabriel Paulino Pedro Fragoso</footer></center>
 </body>
 </html>
