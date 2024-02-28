@@ -1,6 +1,6 @@
 
 body{
-    background-color:rgb(245, 239, 230);
+    background-color:rgb(214, 213, 213);
 }
 
 form {
@@ -80,7 +80,7 @@ h1{
 }
 
 #nav ul li a:hover {
-    color: red;
+    color: rgb(126, 213, 100);
 }
 
 .section {
@@ -118,14 +118,17 @@ footer {
     margin-top: 500px;
 }
 
-body .background {
-    width: 500px;
-    height: 500px;
+.test {
+    margin: 0;
+    padding: 0;
+   background-image: url(Img/pajess.JPG);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
 }
-
 .form-container {
-    color: #d3d3d3;
+    color: #ffffff;
 }
 h2{
-    color: #72a543;
+    color: #ffffff;
 }
